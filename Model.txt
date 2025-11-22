@@ -1,0 +1,114 @@
+The Models Component in langChain os imp part of te framework,designed to facilitate interraction with varuis language models and embedding models.
+
+we have multipe ai models, 
+the probme is when we try to intrect with varuos ai models.
+all those models bahave diffrently ,
+the langchanin model comonent privides the common interface whilch you can connet to varuois models vary easyly
+in short model component in langchain which helps you to connect diffrenr kinds of AI models.
+1) lang uage models: lang models are those we give input in the form of text (like what is the capital of india)
+and the moel understsnd the text, process it and in return it retuns the rsponse in text (like new delhi)
+
+2) Embeding model:in embeding model user gives the text as input ,this model returns series of numbers and this numbds are embedings
+embedings are nothng but vectors
+
+by using lang model we can create chat bot type of applications
+
+embdeing model used to help in symentic serrach ,we can create rag based applications
+
+
+plan of applicationswilll work ondiffrebnt types  lang model
+
+closed soure
+
+    open ai,cloud,gemini model
+open source
+     hugging face 
+
+     embeding models
+     closded
+     opennsource embeding models
+
+     will have document semilarity app
+     --------------
+
+
+     ang uage models conatins two sub models
+     1) llms : general purpose models tat is used for row text generation,we can use this for text genartion,text summerization
+     coe geration, question answering.
+        we give plan text as input and returns the plan text as response
+
+        ;
+     2) cht models: used for conversational tasks. 
+        we can give multiplr inputs and tat chat modelsc can understnd the inputs amd returmd the response
+
+        ----------------
+        steps:
+        1) create a new virtual environment
+        python -m venv venv
+        2) active the virtual environment 
+        venv\Scripts\Activate
+        3) install all the libraries 
+          pip install -r requirements.txt # all the lib will get install i vesrtual environment
+      4) test if changchain is install sucessullly
+          create text.py file
+          import langchain
+print(langchain.__version__)
+run the  python test.py   command
+you should able to see the version 
+
+step 5) create te open ai api key 
+        
+
+        ------------------
+
+
+Open source moel:
+are freely availabe ai models that can be downlaoded,modified,fine tuned and deployed without restrictions from the provider, unlikc the closed soure model such as 
+open ais gpt-4,Anthropic's cloudem or google's gemini ,
+open source models allow full control and customization.
+
+
+for close model , the model will be dumped it to the companies server,
+to commibcate with these models comapy provies api , all tehe users who wa t to communicate irh the modles use the api ,
+tere are two flows
+we need to pay money to access the model via api
+since the model is in comapny server ,we dont have much control to change.
+these two flows will be solve by open source model
+.
+
+in open sour emodel , the company train the model and host i the inernet. and as a user downlaod the model oin our macheine,or communicate via api key.
+we can modify,fine tune,and you can eploy. this is the best selling point of open soud e model
+
+
+some famous open soure model
+llama-2-7B  from meta ai with parameter 7B -70B for general purpose text generation
+falcon      from tii uae   7B to 40B   
+
+-------
+te next queston is 
+
+where i can find them
+
+hugging face: is largest repository of open source llms models.
+
+next queston is what are the varios ways  in whucih we can sue open source models
+1) using HF inference api 
+
+2) Running locally (by  downlaoding the model locally in the local machine)
+
+Disadvantas
+
+require high hardware requirement if we want to run te model locally,reqire expensive GPU's
+set up coplexity
+
+lack of refinemnets,  modeld are not much fine tuned
+
+limited multimodel abiloties: open moels donot support images,audo or video 
+--------------------------------
+
+embeding models: mailu used to concet text to embeding (numbers) called vecters
+will leaar 
+
+open ai embeding models and hugging face embeding model
+
+
