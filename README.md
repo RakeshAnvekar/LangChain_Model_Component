@@ -154,5 +154,16 @@ python test.py
 | Search | Semantic document search |
 | RAG | AI with knowledge base |
 
+<img width="940" height="457" alt="image" src="https://github.com/user-attachments/assets/bc48076f-9949-4c4a-a73f-0ef11a397063" />
+<img width="940" height="549" alt="image" src="https://github.com/user-attachments/assets/1b1d8969-c042-450d-8bd6-b66b33547b2c" />
+<img width="940" height="511" alt="image" src="https://github.com/user-attachments/assets/9b838af1-16cd-42b9-8b35-d5d91b37d111" />
+<img width="940" height="436" alt="image" src="https://github.com/user-attachments/assets/8afcff4e-7e13-45b7-a5f3-de6c9f7420ed" />
+<img width="940" height="429" alt="image" src="https://github.com/user-attachments/assets/6fda3bbb-7b54-4a61-a47d-8f1b2e87a3da" />
+<img width="1316" height="874" alt="image" src="https://github.com/user-attachments/assets/ca96891d-9f2e-42c2-b07e-aaa5cd752044" />
+
+
+
+
+
 
 
